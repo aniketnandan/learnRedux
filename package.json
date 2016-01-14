@@ -1,0 +1,29 @@
+{
+  "name": "learnRedux",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www --ignore node_modules"
+  },
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "body-parser": "~1.13.2",
+    "browserify": "^13.0.0",
+    "bundle": "^0.2.3",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "del": "^2.2.0",
+    "ejs": "^2.3.4",
+    "express": "~4.13.1",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "react-router": "^1.0.3",
+    "serve-favicon": "~2.3.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0"
+  }
+}
