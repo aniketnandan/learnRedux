@@ -3,12 +3,11 @@ import { Link, Router, Route } from "react-router";
 import { render } from "react-dom";
 import Home from "./Home.jsx";
 import About from "./About.jsx";
-
-var Routes = (
-  <Router>
-    <Route path="/" component="Home" />
+console.log("io");
+var routes = (
+  <Route path="/" component="Home" >
     <Route path="/about" component="About" />
-  </Router>
+  </Route>
 );
 
-module.exorts = Routes;
+module.exorts = routes;

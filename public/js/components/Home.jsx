@@ -1,10 +1,13 @@
 import React from "react";
-import { Link } from "react-roter";
+import { Link } from "react-router";
 
 const Home = React.createClass({
   render: function() {
     return (
-      <Link to ="/about">About</Link>
+      <div>
+        OLA
+        <Link to ="/about">About</Link>
+      </div>
     );
   }
 });

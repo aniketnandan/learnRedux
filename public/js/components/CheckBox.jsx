@@ -12,6 +12,8 @@ var CheckBox = React.createElement({
   },
 
   render: function () {
-    <input type="checkbox" checked={this.state.checked} onChange={this.handleChange} />
+    <label>
+      <input type="checkbox" checked={this.state.checked} onChange={this.handleChange} />
+    </label>
   }
 })
