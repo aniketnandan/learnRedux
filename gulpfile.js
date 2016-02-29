@@ -29,8 +29,8 @@ gulp.task('build', function () {
 });
 
 
-gulp.task("watch", ['dev'], function(){
-  var watcher = gulp.watch(['./public/js/components/*.jsx', "./gulpfile.js"]);
+gulp.task("watch", function(){
+  var watcher = gulp.watch(['./public/js/components/*.jsx', "./gulpfile.js"], ["dev"]);
 
   watcher.on('change', function(event) {
     var t = new Date();
