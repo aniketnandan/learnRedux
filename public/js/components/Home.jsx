@@ -5,11 +5,11 @@ const Home = React.createClass({
   render: function() {
     return (
       <div>
-        OLA
-        <Link to ="/about">About</Link>
+        <Link to ="about">About</Link>
+        {this.props.children}
       </div>
     );
   }
 });
 
-module.exports = Home;
+export default Home;
